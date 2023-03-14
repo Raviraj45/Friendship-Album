@@ -1,0 +1,90 @@
+@media only screen and (max-width:480px)
+{
+    .menu{
+        padding: 10px 5px;
+        text-align: center;
+    }
+    .menu h4{
+        font-size: 20px;
+        margin-bottom: 10px;
+        float:none;
+    }
+    .menu ul{
+        text-align: center;
+        margin-left: 0px;
+        padding: 0px;
+    }
+    
+    .menu ul li{
+        display: inline-block;
+        float: none;
+        list-style:none;
+        padding: 0 10px;
+        font-weight:bold;
+        text-transform:uppercase;
+    }
+
+    .menu ul li a{
+        text-decoration: none;
+        font-size:10px;
+        color: #fff;
+    }
+
+    .menu ul li a:hover{
+        color: red
+    }
+    
+
+    
+/* Form Setting Starts from Here */
+
+.container{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #f2f2f2;
+  }
+  
+  .container label{
+    font-size: 18px;
+  }
+  input, select, textarea 
+  {
+      padding: 12px; 
+      margin-top: 10px; 
+      margin-bottom: 16px;
+      font-size: 15px;
+      padding: 10px 20px;
+      border: 1px solid #ccc; 
+      border-radius: 10px; 
+      box-sizing: border-box; 
+  }
+  .container select{
+    width: 370px;
+  }
+  input {
+      width: 370px;
+      background-color: rgba(71, 179, 74, 0.534);
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+  }
+  
+  input:hover {
+      background-color: #5ecc63a1;
+  }
+  
+  .container textarea{
+    width: 370px;
+  }
+  .container button{
+    padding: 10px  20px;
+    border-radius: 10px 20px;
+    font-size: 18px;
+  }
+
+}

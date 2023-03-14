@@ -1,0 +1,76 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-image:url("Project Image/IMG20191020162445.jpg");
+    background-size:cover;
+    background-position:center ;
+    background-repeat: no-repeat;
+}
+.menu{
+    padding: 50px;
+    background-color:rgba(19, 15, 15, 0.719);
+}
+
+.menu h4{
+    color:white;
+    font-size:40px;
+    font-weight:bold;
+    float: left;
+}
+
+.menu ul{
+    padding: 20px;
+    margin-left: 350px;
+}
+
+.menu ul li{
+    float: left;
+    list-style:none;
+    padding: 0 20px;
+    font-weight:bold;
+    text-transform:uppercase;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-size:20px;
+    color: #fff;
+}
+
+.menu ul li a:hover{
+    color: red;
+}
+
+/* Center text settings is done here */
+
+.text{
+    margin-top: 150px;
+    padding: 20px;
+    background-color: rgba(77, 77, 77, 0.288);
+    text-align:center;
+    color:rgb(255, 255, 255);
+    text-transform:uppercase;
+    backdrop-filter: blur(5px);
+}
+.text h1{
+    font-size:60px;
+    font-weight:700px;
+    
+}
+.text h4{
+    margin-top: 10px;
+    font-size: 20px;
+}
+#buttonone{
+    background-color:white;
+    border:none;
+    padding: 10px 20px;
+    margin-top: 30px;
+    font-size:20px;
+    font-weight:bold;
+    border: none;
+    text-transform:uppercase;
+    cursor: pointer;
+}

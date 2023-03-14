@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+/* Menu tab setting */
+.menu{
+  padding: 50px;
+  background-color:rgba(19, 15, 15, 0.719);
+}
+
+.menu h4{
+  color:white;
+  font-size:40px;
+  font-weight:bold;
+  float: left;
+}
+
+.menu ul{
+  padding: 20px;
+  margin-left: 340px;
+}
+
+.menu ul li{
+  float: left;
+  list-style:none;
+  padding: 0 20px;
+  font-weight:bold;
+  text-transform:uppercase;
+}
+
+.menu ul li a{
+  text-decoration: none;
+  font-size:20px;
+  color: #fff;
+}
+
+.menu ul li a:hover{
+  color: red;
+}
+
+
+/* About Section */
+.about-section {
+  padding: 40px;
+  text-align: center;
+  background-color: #38486b;
+  color: white;
+}
+.about-section h1{
+  font-size: 40px;
+}
+
+.out-team {
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+  background-color: rgb(255, 245, 105);
+}
+/* Profile setting */
+.row{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-evenly;
+  margin-bottom: 40px;
+}
+.card{
+  width: 450px;
+  height: 554px;
+  margin-top: 40px;
+  border: 2px solid black;
+  box-shadow: 10px 10px 10px grey;
+  border-radius: 20px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.row .card img{
+  position: relative;
+  z-index: 0;
+  max-width: fit-content;
+  filter: sepia(103%);
+  filter: grayscale(60%);
+}
+
+.card .content{
+  position: absolute;
+  top: 99.5%;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.822);
+  width: 450px;
+  padding-left:26px;
+  padding-bottom: 9px;
+  padding-top: 16px;
+  margin: 0;
+  box-sizing: border-box;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.card .content .title{
+  color: grey;
+  font-size: 18px;
+}
+
+

@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image:url("../Project Image/IMG20191020162445.jpg");
+  background-size:cover;
+  background-position:center ;
+  background-repeat: no-repeat;
+}
+
+
+
+.menu{
+  padding: 50px;
+  background-color:rgba(19, 15, 15, 0.719);
+}
+
+.menu h4{
+  color:white;
+  font-size:40px;
+  font-weight:bold;
+  float: left;
+}
+
+.menu ul{
+  padding: 20px;
+  margin-left: 340px;
+}
+
+.menu ul li{
+  float: left;
+  list-style:none;
+  padding: 0 20px;
+  font-weight:bold;
+  text-transform:uppercase;
+}
+
+.menu ul li a{
+  text-decoration: none;
+  font-size:20px;
+  color: #fff;
+}
+
+.menu ul li a:hover{
+  color: red;
+}
+
+/* Form Setting Starts from Here */
+
+.container{
+  margin-top: 20px;
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-bottom: 100px;
+  border-radius: 40px;
+  padding: 40px;
+  background-color: #f2f2f2;
+}
+
+.container label{
+  font-size: 20px;
+}
+input, select, textarea 
+{
+    padding: 12px; 
+    margin-top: 10px; 
+    margin-bottom: 16px;
+    font-size: 15px;
+    padding: 10px 20px;
+    border: 1px solid #ccc; 
+    border-radius: 10px; 
+    box-sizing: border-box; 
+}
+.container select{
+  width: 400px;
+}
+input {
+    width: 640px;
+    background-color: rgba(71, 179, 74, 0.534);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+}
+
+input:hover {
+    background-color: #5ecc63a1;
+}
+
+.container textarea{
+  width: 640px;
+  text-align: center;
+}
+.container button{
+  padding: 10px  20px;
+  border-radius: 10px 20px;
+  border: none;
+  box-shadow: 5px 5px 10px;
+  font-size: 20px;
+  color: #fff;
+  background-color: rgb(65, 158, 70);
+}

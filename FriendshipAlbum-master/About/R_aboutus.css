@@ -1,0 +1,100 @@
+@media only screen and (max-width:480px)
+{
+    .menu{
+        padding: 10px 5px;
+        text-align: center;
+    }
+    .menu h4{
+        font-size: 20px;
+        margin-bottom: 10px;
+        float:none;
+    }
+    .menu ul{
+        text-align: center;
+        margin-left: 0px;
+        padding: 0px;
+    }
+    
+    .menu ul li{
+        display: inline-block;
+        float: none;
+        list-style:none;
+        padding: 0 10px;
+        font-weight:bold;
+        text-transform:uppercase;
+    }
+
+    .menu ul li a{
+        text-decoration: none;
+        font-size:10px;
+        color: #fff;
+    }
+
+    .menu ul li a:hover{
+        color: red
+    } 
+    
+    
+    /* About Section */
+    .about-section {
+        padding: 10px;
+        text-align: center;
+        background-color: #38486b;
+        color: white;
+    }
+    .about-section h1{
+        font-size: 20px;
+    }
+    
+    .our-team {
+        text-align: center;
+        font-size: 30px;
+        padding: 5px;
+        background-color: rgb(255, 245, 105);
+    }
+    /* Profile setting */
+    .row{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: space-evenly;
+        margin-bottom: 10px;
+    }
+    .card{
+        width: 280px;
+        height: 280px;
+        margin-bottom: 140px;
+        border: 2px solid black;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        box-shadow: 5px 5px 10px grey;
+    }
+    .row .card img{
+        position: none;
+        width: 280;
+        height: 350px;
+        z-index: 0;
+        filter: sepia(103%);
+        filter: grayscale(60%);
+    }
+    
+    .card .content{
+        position: none;
+        top: initial;
+        margin-top: -70px;
+        z-index: 1;
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.822);
+        border: 2px solid black;
+        width: 284px;
+        margin-left: -2px;
+        padding-left:26px;
+        padding-bottom: 9px;
+        padding-top: 16px;
+    }
+    
+    .card .content .title{
+        color: grey;
+        font-size: 18px;
+    }
+  
+}

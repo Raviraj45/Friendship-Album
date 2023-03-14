@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("../Project Image/sahil.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Top menue setting is done here */
+.menu{
+    padding: 50px;
+    background-color:rgba(19, 15, 15, 0.719);
+}
+
+.menu h4{
+    color:white;
+    font-size:40px;
+    font-weight:bold;
+    float: left;
+}
+
+.menu ul{
+    padding: 20px;
+    margin-left: 340px;
+}
+
+.menu ul li{
+    float: left;
+    list-style:none;
+    padding: 0 20px;
+    font-weight:bold;
+    text-transform:uppercase;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-size:20px;
+    color: #fff;
+}
+
+.menu ul li a:hover{
+    color: red;
+}
+
+/* FONT SETTING */
+
+.name{
+    padding: 40px;
+    background-color: rgba(255, 208, 0, 0.507);
+    text-align: center;
+    font-family: cursive;
+    font-size: 80px;
+    text-shadow: 10px 10px 10px;
+    backdrop-filter: blur(5px);
+}
+
+/* Images setting */
+
+.fashion{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.fashion .gallery{
+    border: 10px solid rgba(0, 0, 0, 0.863);
+    height: 400px;
+    margin: 20px;
+    overflow: hidden;
+
+}
+.fashion .gallery a img{
+    width: 400px;
+
+}

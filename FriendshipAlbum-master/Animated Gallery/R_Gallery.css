@@ -1,0 +1,86 @@
+@media only screen and (max-width:480px)
+{
+    *{
+        padding:0;
+        text-align: center;
+    }
+    
+    .left{
+        position: absolute;
+        position: fixed;
+        z-index: 1;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.712);
+        height: 100%;
+        cursor: pointer;
+    }
+    .right{
+        position: absolute;
+        position: fixed;
+        z-index: 1;
+        right: 0;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.712);
+        height: 100%;
+        cursor: pointer;
+    }
+    
+    #slider
+    {
+        overflow:hidden;
+    }
+    
+    #slider figure
+    {
+        margin-top: 10px;
+        position:relative;
+        width: 700%;
+        overflow: hidden;
+        animation:20s slider infinite;
+    }
+    
+    #slider figure img
+    {
+        width:280px;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        float:left;
+    }
+    
+    @keyframes slider{
+        0%
+        {
+            left:0;
+        }
+        10%
+        {
+            left:-100%
+        }
+        25%
+        {
+            left:-200%;
+        }
+        40%
+        {
+            left:-300%;
+        }
+        55%
+        {
+            left:-400%;
+        }
+        70%
+        {
+            left:-500%;
+        }
+        
+        85%
+        {
+            left:-600%;
+        }
+        100%
+        {
+            left:0%;
+        }
+    }
+}
